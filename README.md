@@ -23,12 +23,8 @@
  <img width="1551" height="1080" alt="изображение" src="https://github.com/user-attachments/assets/48d64a98-c014-49de-8655-4b7419dc0725" />  
  Проверка статуса задачи:  
  <img width="1538" height="1080" alt="изображение" src="https://github.com/user-attachments/assets/377668ec-a522-4178-a1e4-08412729cdd1" />  
- Результат в виде сгенерированной папки и zip-архива:  
  <img width="503" height="684" alt="изображение" src="https://github.com/user-attachments/assets/f88a8b34-4122-4d4a-8151-1e1ad1ba8d5a" />  
-
-
-
-  
+ 
 ### Примечание
 Для удобства для закачивания доступны файлы типа .jpg, .jpeg и .pdf. Если формать .jpg всё же недопустим - достаточно закомментировать 39 строку.  
 При заполнении задачи автоматически будет создана папка "temp_archives", в которой будут храниться сгенерированные zip-файлы.  
