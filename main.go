@@ -36,7 +36,6 @@ var (
 		AllowedExtensions: map[string]bool{
 			".pdf":  true,
 			".jpeg": true,
-			".jpg":  true,
 		},
 		MaxFilesPerTask: MaxFilesPerTask,
 		MaxActiveTasks:  MaxActiveTasks,
@@ -310,7 +309,7 @@ func hasAllowedExtension(rawURL string) bool {
 	}
 
 	ext := strings.ToLower(filepath.Ext(filename))
-	if ext == ".jpeg" || ext == ".jpg" || ext == ".pdf" {
+	if ext == ".jpeg" || ext == ".pdf" {
 		return true
 	}
 
